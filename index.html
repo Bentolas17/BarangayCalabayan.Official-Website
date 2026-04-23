@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barangay Calabayan — Ozamiz City</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-emblem">
+      <div class="emblem-ring"></div>
+      <span>BC</span>
+    </div>
+    <p>Barangay Calabayan</p>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-brand">
+        <div class="brand-seal">BC</div>
+        <div class="brand-text">
+          <strong>Barangay Calabayan</strong>
+          <span>Ozamiz City, Misamis Occidental</span>
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#officials" class="nav-link">Officials</a></li>
+        <li><a href="#sk" class="nav-link">SK</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-pattern"></div>
+    <div class="hero-content">
+      <div class="hero-badge">Official Website</div>
+      <h1 class="hero-title">Barangay<br /><span class="accent">Calabayan</span></h1>
+      <p class="hero-tagline">Transparency &bull; Service &bull; Community Growth</p>
+      <p class="hero-sub">Serving the residents of Calabayan with integrity, accountability, and dedication to sustainable community development.</p>
+      <div class="hero-btns">
+        <button class="btn-primary" id="heroOfficials">Meet Our Officials</button>
+        <button class="btn-outline" id="heroContact">Contact Us</button>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-num" data-target="4200">0</span>
+        <p>Residents</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="12">0</span>
+        <p>Officials</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="28">0</span>
+        <p>Projects Done</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="8">0</span>
+        <p>SK Members</p>
+      </div>
+    </div>
+    <div class="scroll-cue">
+      <span></span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-eyebrow">About the Barangay</div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-title">Serving <span class="accent">Calabayan</span><br />with Pride</h2>
+          <p>Barangay Calabayan is dedicated to delivering efficient public service, maintaining peace and order, and supporting sustainable community development through digital transparency and active resident engagement.</p>
+          <p>Located in Ozamiz City, Misamis Occidental, Calabayan continues to grow as a model barangay in Northern Mindanao — where every voice counts and every project serves the people.</p>
+          <div class="about-values">
+            <div class="value-card">
+              <div class="value-num">01</div>
+              <h4>Transparency</h4>
+              <p>Open records and accountable governance in every decision we make.</p>
+            </div>
+            <div class="value-card">
+              <div class="value-num">02</div>
+              <h4>Service</h4>
+              <p>Responsive and efficient delivery of basic services to all residents.</p>
+            </div>
+            <div class="value-card">
+              <div class="value-num">03</div>
+              <h4>Community</h4>
+              <p>Inclusive programs that empower every sector of Calabayan.</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual reveal">
+          <div class="about-card">
+            <div class="about-img-placeholder">
+              <div class="placeholder-seal">
+                <div class="seal-ring outer-ring"></div>
+                <div class="seal-ring inner-ring"></div>
+                <div class="seal-center">
+                  <span>BARANGAY</span>
+                  <strong>CALABAYAN</strong>
+                  <span>OZAMIZ CITY</span>
+                </div>
+              </div>
+            </div>
+            <div class="about-card-footer">
+              <span>&#128205; Barangay Hall, Calabayan, Ozamiz City 7200</span>
+            </div>
+          </div>
+          <div class="about-quick-info">
+            <div class="quick-item">
+              <span class="quick-label">City</span>
+              <span class="quick-val">Ozamiz City</span>
+            </div>
+            <div class="quick-item">
+              <span class="quick-label">Province</span>
+              <span class="quick-val">Misamis Occidental</span>
+            </div>
+            <div class="quick-item">
+              <span class="quick-label">Region</span>
+              <span class="quick-val">Region X</span>
+            </div>
+            <div class="quick-item">
+              <span class="quick-label">Zip Code</span>
+              <span class="quick-val">7200</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BARANGAY OFFICIALS -->
+  <section id="officials" class="officials">
+    <div class="container">
+      <div class="section-eyebrow">Leadership</div>
+      <h2 class="section-title centered">Barangay <span class="accent">Officials</span></h2>
+      <p class="section-sub">Meet the dedicated public servants leading Barangay Calabayan.</p>
+
+      <!-- Punong Barangay -->
+      <div class="org-level captain-level">
+        <div class="official-card captain-card reveal">
+          <div class="card-photo">
+            <div class="photo-placeholder captain-ph"><span><img src="images/Lola Lits.jpg" alt=""></span></div>
+            <div class="card-badge">Punong Barangay</div>
+          </div>
+          <div class="card-info">
+            <h3>Julieta R. Laurete</h3>
+            <p class="card-role">Barangay Captain</p>
+            <p class="card-term">Term: 2023 – 2026</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="org-connector-wrap">
+        <div class="org-line-v"></div>
+        <div class="org-line-h"></div>
+      </div>
+
+      <!-- Kagawad Row 1 -->
+      <div class="org-level two-col reveal">
+        <div class="official-card small-card">
+          <div class="card-photo small"><div class="photo-placeholder"><span><img src="images/KolErnie.jpg" alt=""></span></div></div>
+          <div class="card-info"><h3>Ernie Ramayrat</h3><p class="card-role">Barangay Councilor</p></div>
+        </div>
+        <div class="official-card small-card">
+          <div class="card-photo small"><div class="photo-placeholder"><span><img src="" alt=""></span></div></div>
+          <div class="card-info"><h3>Miguelito Salboro</h3><p class="card-role">Barangay Councilor</p></div>
+        </div>
+      </div>
+
+      <!-- Kagawad Row 2 -->
+      <div class="org-level four-col reveal">
+        <div class="official-card small-card">
+          <div class="card-photo small"><div class="photo-placeholder"><span><img src="images/naysusan.jpg" alt=""></span></div></div>
+          <div class="card-info"><h3>Susan Villacrusis</h3><p class="card-role">Barangay Councilor</p></div>
+        </div>
+        <div class="official-card small-card">
+          <div class="card-photo small"><div class="photo-placeholder"><span><img src="images/tejennifer.jpg" alt=""></span></div></div>
+          <div class="card-info"><h3>Jennifer Pelare</h3><p class="card-role">Barangay Councilor</p></div>
+        </div>
+        <div class="official-card small-card">
+          <div class="card-photo small"><div class="photo-placeholder"><span><img src="images/lolaelsie.jpg" alt=""></span></div></div>
+          <div class="card-info"><h3>Elsie Popera</h3><p class="card-role">Barangay Councilor</p></div>
+        </div>
+        <div class="official-card small-card">
+          <div class="card-photo small"><div class="photo-placeholder"><span><img src="images/LoloBoy.jpg" alt=""></span></div></div>
+          <div class="card-info"><h3>Agustin Filipino</h3><p class="card-role">Barangay Councilor</p></div>
+        </div>
+      </div>
+
+      <!-- Support Staff -->
+      <div class="org-level five-col reveal">
+        <div class="official-card small-card">
+          <div class="card-photo small"><div class="photo-placeholder"><span><img src="images/tiyogods.jpg" alt=""></span></div></div>
+          <div class="card-info"><h3>Godelio Oringot  </h3><p class="card-role">Councilor</p></div>
+        </div>
+        <div class="official-card small-card">
+          <div class="card-photo small"><div class="photo-placeholder sk-ph"><span><img src="images/koltata.jpg" alt=""></span></div></div>
+          <div class="card-info"><h3> Alexandro Basadre</h3><p class="card-role">Secretary</p></div>
+        </div>
+        <div class="official-card small-card">
+          <div class="card-photo small"><div class="photo-placeholder"><span><img src="images/Lolaarlene.jpg" alt=""></span></div></div>
+          <div class="card-info"><h3>Arlene Filipino</h3><p class="card-role">Brgy. Treasurer</p></div>
+        </div>
+        <div class="official-card small-card">
+          <div class="card-photo small"><div class="photo-placeholder"><span>SE</span></div></div>
+          <div class="card-info"><h3>None</h3><p class="card-role">Councilor</p></div>
+        </div>
+        <div class="official-card small-card">
+          <div class="card-photo small"><div class="photo-placeholder"><span>AA</span></div></div>
+          <div class="card-info"><h3>None</h3><p class="card-role">Councilor</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SK MEMBERS -->
+  <section id="sk" class="sk-section">
+    <div class="container">
+      <div class="section-eyebrow">Youth Leadership</div>
+      <h2 class="section-title centered">Sangguniang <span class="accent">Kabataan</span></h2>
+      <p class="section-sub">Empowering the youth of Calabayan to lead, serve, and inspire the community.</p>
+      <div class="sk-grid reveal">
+        <div class="sk-card chair-card">
+          <div class="sk-photo large"><div class="photo-placeholder sk-ph"><span><img src="images/MJPops.jpg" alt=""></span></div></div>
+          <h3>Micole Popera</h3>
+          <p>SK Chair</p>
+        </div>  
+        <div class="sk-card">
+          <div class="sk-photo"><div class="photo-placeholder"><span><img src="images/Inday.jpg" alt=""></span></div></div>
+          <h3>Cristine Sumaylo</h3><p>SK Councilor</p>
+        </div>
+        <div class="sk-card">
+          <div class="sk-photo"><div class="photo-placeholder"><span>SK2</span></div></div>
+          <h3>Jan Henry Paragoso</h3><p>SK Councilor</p>
+        </div>
+        <div class="sk-card">
+          <div class="sk-photo"><div class="photo-placeholder"><span>SK3</span></div></div>
+          <h3>Clark Pahilangco</h3><p>SK Councilor</p>
+        </div>
+        <div class="sk-card">
+          <div class="sk-photo"><div class="photo-placeholder"><span>SK4</span></div></div>
+          <h3>Ed Stefhen Jalem</h3><p>SK Councilor</p>
+        </div>
+        <div class="sk-card">
+          <div class="sk-photo"><div class="photo-placeholder"><span>SK5</span></div></div>
+          <h3>Kent Laure</h3><p>SK Councilor</p>
+        </div>
+        <div class="sk-card">
+          <div class="sk-photo"><div class="photo-placeholder"><span>SK6</span></div></div>
+          <h3>Garret Ian Ebcay</h3><p>SK Councilor</p>
+        </div>
+        <div class="sk-card">
+          <div class="sk-photo"><div class="photo-placeholder"><span>SK7</span></div></div>
+          <h3>Jess Emie Umipig</h3><p>SK Councilor</p>
+        </div>
+        <div class="sk-card">
+          <div class="sk-photo"><div class="photo-placeholder"><span>SKS</span></div></div>
+          <h3>Gelyn Pelare</h3><p>SK Secretary</p>
+        </div>
+        <div class="sk-card">
+          <div class="sk-photo"><div class="photo-placeholder"><span>SKS</span></div></div>
+          <h3>Missy Erica Pahalla</h3><p>SK Treasurer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-eyebrow">Community Development</div>
+      <h2 class="section-title centered">Barangay <span class="accent">Projects</span></h2>
+      <p class="section-sub">Infrastructure and social programs improving the lives of every resident.</p>
+      <div class="project-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+        <button class="filter-btn" data-filter="health">Health</button>
+        <button class="filter-btn" data-filter="social">Social</button>
+        <button class="filter-btn" data-filter="youth">Youth</button>
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+        <div class="project-card reveal" data-category="infrastructure">
+          <div class="project-img road"><div class="project-cat-tag">Infrastructure</div></div>
+          <div class="project-body">
+            <h3>Road Rehabilitation</h3>
+            <p>Concrete road improvement along the main barangay road to improve mobility and reduce flooding.</p>
+            <div class="project-meta">
+              <span class="meta-status ongoing">Ongoing</span>
+              <span class="meta-year">2024</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal" data-category="health">
+          <div class="project-img health-img"><div class="project-cat-tag">Health</div></div>
+          <div class="project-body">
+            <h3>Health Center Update</h3>
+            <p>Renovation and equipment upgrade of the Calabayan Barangay Health Center for improved healthcare access.</p>
+            <div class="project-meta">
+              <span class="meta-status done">Completed</span>
+              <span class="meta-year">2023</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal" data-category="infrastructure">
+          <div class="project-img lighting-img"><div class="project-cat-tag">Utilities</div></div>
+          <div class="project-body">
+            <h3>Community Lighting</h3>
+            <p>Installation of solar-powered street lights along key roads to improve safety at night.</p>
+            <div class="project-meta">
+              <span class="meta-status done">Completed</span>
+              <span class="meta-year">2023</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal" data-category="social">
+          <div class="project-img livelihood-img"><div class="project-cat-tag">Livelihood</div></div>
+          <div class="project-body">
+            <h3>Livelihood Program</h3>
+            <p>Skills training and seed capital assistance for unemployed residents through DSWD partnerships.</p>
+            <div class="project-meta">
+              <span class="meta-status ongoing">Ongoing</span>
+              <span class="meta-year">2024</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal" data-category="youth">
+          <div class="project-img youth-img"><div class="project-cat-tag">Youth</div></div>
+          <div class="project-body">
+            <h3>Youth Sports Program</h3>
+            <p>SK-led sports tournaments and training programs to keep the youth active and engaged.</p>
+            <div class="project-meta">
+              <span class="meta-status ongoing">Ongoing</span>
+              <span class="meta-year">2024</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal" data-category="social">
+          <div class="project-img relief-img"><div class="project-cat-tag">Social Services</div></div>
+          <div class="project-body">
+            <h3>Relief Assistance</h3>
+            <p>Regular distribution of food packs and relief goods to senior citizens and indigent families.</p>
+            <div class="project-meta">
+              <span class="meta-status done">Completed</span>
+              <span class="meta-year">2023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-eyebrow">Get in Touch</div>
+      <h2 class="section-title centered">Contact <span class="accent">Us</span></h2>
+      <p class="section-sub">For concerns, requests, or information about barangay services — we are here to help.</p>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="info-card">
+            <div class="info-icon">&#128205;</div>
+            <div class="info-text">
+              <h4>Address</h4>
+              <p>Barangay Hall, Calabayan<br />Ozamiz City, Misamis Occidental 7200</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">&#128222;</div>
+            <div class="info-text">
+              <h4>Phone</h4>
+              <p>+63 (088) 521-4567</p>
+              <p>+63 917 000 0000 (Mobile)</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">&#128140;</div>
+            <div class="info-text">
+              <h4>Facebook Page</h4>
+              <p>Barangay Calabayan Official</p>
+              <a href="https://www.facebook.com/profile.php?id=61567245511401" target="_blank" class="info-link">Visit Page &rarr;</a>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">&#128336;</div>
+            <div class="info-text">
+              <h4>Office Hours</h4>
+              <p>Monday – Friday</p>
+              <p>8:00 AM – 5:00 PM</p>
+            </div>
+          </div>
+          <div class="info-card services-card">
+            <div class="info-icon">&#128203;</div>
+            <div class="info-text">
+              <h4>Available Services</h4>
+              <ul class="services-list">
+                <li>Barangay Clearance</li>
+                <li>Indigency Certificate</li>
+                <li>Residency Certificate</li>
+                <li>Business Permit Endorsement</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal">
+          <form id="contactForm" novalidate>
+            <h3>Send a Message</h3>
+            <p class="form-note">For urgent concerns, please visit the barangay hall directly during office hours.</p>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name <span class="req">*</span></label>
+                <input type="text" id="name" placeholder="On Going Fix" required />
+                <span class="field-error" id="nameError"></span>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="+63 9XX XXX XXXX" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address <span class="req">*</span></label>
+              <input type="email" id="email" placeholder="On Going Fix" required />
+              <span class="field-error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label for="concern">Type of Concern</label>
+              <select id="concern">
+                <option value="">Select a concern</option>
+                <option>Barangay Clearance Request</option>
+                <option>Indigency Certificate</option>
+                <option>Residency Certificate</option>
+                <option>Community Complaint</option>
+                <option>Business Permit Endorsement</option>
+                <option>Project Inquiry</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message <span class="req">*</span></label>
+              <textarea id="message" rows="4" placeholder="On Going Fix" required></textarea>
+              <span class="field-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn-primary full-width" id="submitBtn">Send Message</button>
+            <div class="form-success" id="formSuccess">
+              &#10003; Message sent. We will respond within 1–2 business days.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-seal">BC</div>
+        <div class="footer-brand-text">
+          <strong>Barangay Calabayan</strong>
+          <span>Ozamiz City, Misamis Occidental</span>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#officials">Officials</a></li>
+            <li><a href="#sk">SK Members</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#contact">Barangay Clearance</a></li>
+            <li><a href="#contact">Indigency Certificate</a></li>
+            <li><a href="#contact">Residency Certificate</a></li>
+            <li><a href="#contact">Business Endorsement</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li>Barangay Hall, Calabayan</li>
+            <li>Ozamiz City 7200</li>
+            <li>+63 (088) 521-4567</li>
+            <li>Mon–Fri, 8AM–5PM</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2024 Barangay Calabayan. All rights reserved.</span>
+      <span>Transparency &bull; Service &bull; Community</span>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8679;</button>
+  <script src="one.js"></script>
+</body>
+</html>
